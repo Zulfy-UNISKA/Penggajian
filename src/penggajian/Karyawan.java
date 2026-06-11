@@ -128,7 +128,22 @@ public class Karyawan {
         JOptionPane.showMessageDialog(null, pesan);
     }
     
+    public void ubahDataKaryawan(String nama, String status, String golongan, int masa) {
+        int i = getIndexData(nama);
+        this.listDataNama().set(i, nama);
+        this.listDataStatus().set(i, status);
+        this.listDataGolongan().set(i, golongan);
+        this.listDataMasaKerja().set(i, masa);
+        JOptionPane.showMessageDialog(null, "Data Berhasil Diubah!");
+    }
     
-    
+    public void hapusDataKaryawan(String nama, String status, String golongan, int masa) {
+        int i = getIndexData(nama);
+        this.listDataNama().remove(i);
+        this.listDataStatus().remove(i);
+        this.listDataGolongan().remove(i);
+        this.listDataMasaKerja().remove(i);
+        JOptionPane.showMessageDialog(null, "Data Berhasil Dihapus!");
+    }
     
 }

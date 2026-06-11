@@ -66,26 +66,26 @@ public class Penggajian {
         
         
         
-        Gaji tes = new Gaji();
-        tes.inputDataNama("Kaela");
-        tes.inputDataNama("Ole");
-        
-        tes.inputDataMasaKerja(2);
-        tes.inputDataMasaKerja(1);
-        
-        tes.inputDataGolongan("II");
-        tes.inputDataGolongan("I");
-        
-        tes.inputDataStatus("Belum");
-        tes.inputDataStatus("Menikah");
-        
-        System.out.println(tes.listDataNama());
-        System.out.println(tes.listDataMasaKerja());
-        System.out.println(tes.listDataGolongan());
-        System.out.println(tes.listDataStatus());
-        int i = tes.getIndexData("Kobo");
-        System.out.println(i);
-        tes.searchData("Yaya");
+//        Gaji tes = new Gaji();
+//        tes.inputDataNama("Kaela");
+//        tes.inputDataNama("Ole");
+//        
+//        tes.inputDataMasaKerja(2);
+//        tes.inputDataMasaKerja(1);
+//        
+//        tes.inputDataGolongan("II");
+//        tes.inputDataGolongan("I");
+//        
+//        tes.inputDataStatus("Belum");
+//        tes.inputDataStatus("Menikah");
+//        
+//        System.out.println(tes.listDataNama());
+//        System.out.println(tes.listDataMasaKerja());
+//        System.out.println(tes.listDataGolongan());
+//        System.out.println(tes.listDataStatus());
+//        int i = tes.getIndexData("Kobo");
+//        System.out.println(i);
+//        tes.searchData("Yaya");
         
         new FrameUtama().setVisible(true);
         
